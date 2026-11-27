@@ -1,1 +1,31 @@
+# 자격 증명 (절대 커밋 금지)
 .git-credentials
+.netrc
+
+# Python 캐시 / 빌드 산출물
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 가상환경
+.venv/
+venv/
+
+# IDE / 에디터
+.vscode/
+.idea/
+*.swp
+
+# OS 잡파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 기타 불필요 파일
+lost+found/
+Untitled*.ipynb
